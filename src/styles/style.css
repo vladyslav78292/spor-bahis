@@ -520,6 +520,14 @@ button {
   border-radius: 50%;
 }
 
+
+.burger__link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
 #button::after {
   content: "\f077";
   font-size: 30px;

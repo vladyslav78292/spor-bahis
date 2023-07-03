@@ -1,5 +1,7 @@
 'use strict';
 
+'use strict';
+
 $(".question-wrapper").click( function () {
   var container = $(this).parents(".accordion");
   var answer = container.find(".answer-wrapper");
@@ -35,19 +37,6 @@ const button = document.getElementById('burger-menu');
 const menu = document.getElementById('menu');
 const closedMenu = document.getElementById('close_menu');
 const body = document.getElementById('body');
-
-button.addEventListener('click', () => {
-  menu.classList.add('burger-menu--open');
-  menu.classList.remove('burger-menu--closed');
-  body.classList.add('open');
-});
-
-closedMenu.addEventListener('click', () => {
-  menu.classList.remove('burger-menu--open');
-  body.classList.remove('open');
-  menu.classList.add('burger-menu--closed');
-});
-
 const button_top = $('#button');
 const header = document.getElementById('header');
 
@@ -59,6 +48,19 @@ $(window).scroll(function() {
     button_top.removeClass('show');
     header.classList.remove('header__background');
   }
+});
+
+button.addEventListener('click', () => {
+  menu.classList.add('burger-menu--open');
+  menu.classList.remove('burger-menu--closed');
+  body.classList.add('open');
+  button_top.removeClass('show');
+});
+
+closedMenu.addEventListener('click', () => {
+  menu.classList.remove('burger-menu--open');
+  body.classList.remove('open');
+  menu.classList.add('burger-menu--closed');
 });
 
 button_top.on('click', function(e) {

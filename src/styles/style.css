@@ -571,6 +571,68 @@ button {
   visibility: visible;
 }
 
+.table {
+  display: flex;
+  flex-direction: column;
+  background-color: #19333D;
+  border-radius: 17px;
+  color: white;
+  margin-top: 34px;
+	overflow: auto;
+}
+
+.table-row:last-of-type {
+	border-bottom: none;
+}
+
+.table-row {
+	min-width: 700px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  border-bottom: 1px solid #304750;
+}
+
+.table-title {
+  padding: 8px 0;
+  padding-left: 10px;
+	width: 200px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.first-table-title {
+  width: 205px;
+}
+
+.header__background {
+  background-color: #0C1D23;
+}
+
+.table-description {
+  font-size: 14px;
+  color: white;
+  padding: 8px 10px;
+  border-left: 1px solid #304750;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.table-title-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-title-description {
+  padding: 8px 0;
+  font-size: 14px;
+}
+
 @media (max-width: 1200px) {
   .nav {
     display: none;

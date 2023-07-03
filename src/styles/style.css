@@ -195,13 +195,24 @@ body {
   color: rgba(41, 38, 58, 1);
   width: 135px;
   background: linear-gradient(#FFC702, #FF8B20);
+  transition: all 0.2s ease-in-out;
+}
+
+.orange__button:hover {
+  transform: scale(1.1);
 }
 
 .transparent__button {
   color: white;
   width: 154px;
   border: 3px solid rgba(37, 206, 118, 1);
+  transition: all 0.2s ease-in-out;
 }
+
+.transparent__button:hover {
+  transform: scale(1.1);
+}
+
 
 .welcome-banner__buttons {
   display: flex;

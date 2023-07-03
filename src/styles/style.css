@@ -634,6 +634,10 @@ button {
   font-size: 14px;
 }
 
+.first-table-title--addictional {
+  width: 240px;
+}
+
 @media (max-width: 1200px) {
   .nav {
     display: none;

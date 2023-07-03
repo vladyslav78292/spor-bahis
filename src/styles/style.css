@@ -611,6 +611,13 @@ button {
   background-color: #0C1D23;
 }
 
+.table-title-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .table-description {
   font-size: 14px;
   color: white;
@@ -620,12 +627,6 @@ button {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-}
-
-.table-title-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .table-title-description {

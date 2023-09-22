@@ -49,6 +49,17 @@ body {
   overflow-y: hidden;
 }
 
+.number {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
 .header {
   position: fixed;
   padding: 15px 0;
